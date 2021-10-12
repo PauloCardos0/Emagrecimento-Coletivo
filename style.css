@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    text-align: center;
+    background-color: rgba(173, 216, 230, 0.521);
+    
+}
+
+body{
+    background-image: url(imagens/gabin-vallet-J154nEkpzlQ-unsplash.jpg);
+    width: 100;
+   
+}
