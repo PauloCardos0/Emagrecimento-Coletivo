@@ -10,18 +10,24 @@
 <body>
     <h1>Emagrecimento Coletivo</h1>
 
-    <div class="form">
+    
+     <div class="form">
         
-        <form action="login.php" method="post">
-            <fieldset>
-                <legend>Cadastro</legend>
+        <form action="cadastramento.php" method="post">
+            
+            <h2>Cadastro </h2>
             <label class="label">Nome:</label>
             <br>
             <input type="text" name="nome" placeholder="Digite seu nome...">
             <br>
-            <label class="label">E-mail:</label>
+            <label class="label">E-mail*</label>
             <br>
-            <input type="text" name="email" placeholder="Digite seu E-mail...">
+            <input type="email" name="email" placeholder="Digite seu E-mail...">
+            <br>
+            
+            <label class="label">Matricula*</label>
+            <br>
+            <input type="text" name="matricula" placeholder="Digite sua matricula...">
             <br>
             <label class="label">Peso:</label>
             <br>
@@ -29,8 +35,16 @@
             <br>
             <label class="label">Altura:</label>
             <br>
-            <input type="text" name="altura" placeholder="Digite sua Altura...">
-            </fieldset>
+            <input type="number" name="altura" placeholder="Digite sua Altura...">
+            <br>
+            <label class="label">Sexo</label>
+
+                   <select name="assunto">
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+        
+                    </select>
+            
 
     </div>
 </body>

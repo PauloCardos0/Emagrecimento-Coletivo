@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+*{
+    box-sizing: border-box;
+}
+
+
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 60px;
@@ -16,12 +21,24 @@ body{
 }
 
 .form{
-    text-align: center;
-    align-items: center;
+    width: 420px;
+    height: 520px;
+    background-color: rgba(255, 255, 255, 0.692);
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+    size: 16px;
+}
+label{
+    display: block;
+    padding: auto;
+   
+}
+input {
+
+    padding: 10px;
+    width: 400px;
+    border: 2px solid #999;
+    outline: 0;
 }
 
-fieldset
-{
-     width:300px;
-    height:250px;
-}
+
