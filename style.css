@@ -14,16 +14,21 @@ h1{
     
 }
 
-body{
+#container{
+    width: 100vw;
+    height: 100vh;
     background-image: url(imagens/gabin-vallet-J154nEkpzlQ-unsplash.jpg);
-    width: 100;
-   
+    background-size: cover;
+    
 }
 
 .form{
     width: 420px;
-    height: 520px;
-    background-color: rgba(255, 255, 255, 0.692);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.712);
     padding: 10px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Tahoma, Geneva, Verdana, sans-serif;
     size: 16px;
