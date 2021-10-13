@@ -27,7 +27,7 @@ echo"-------------------------------------------------"."<br>";
 $sql = "INSERT INTO Cadastramento (nome, email, matricula, peso, altura, sexo) VALUES ('$nome', '$email', '$matricula', '$peso', '$altura', '$sexo')";
 if (mysqli_query($conn, $sql)) {
       echo"-------------------------------------------------"."<br>";
-      echo "<strong>OS DADOS FORAM REGISTRADOS NO SEU BANCO DE DADOS</strong>"."<br>";
+      echo "<strong>Os dados foram cadastrados</strong>"."<br>";
       echo"-------------------------------------------------";
 
 } else {
