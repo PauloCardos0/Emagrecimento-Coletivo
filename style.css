@@ -59,5 +59,8 @@ button{
    color: #fff;
    background-color: #08558b;
 }
-
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
 
