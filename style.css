@@ -28,7 +28,7 @@ h1{
     margin-right: auto;
     margin-top: 10vh;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.712);
+    background-color: rgba(216, 242, 250, 0.712);
     padding: 10px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Tahoma, Geneva, Verdana, sans-serif;
     size: 16px;
@@ -36,6 +36,7 @@ h1{
 label{
     display: block;
     padding: auto;
+    
    
 }
 input {
@@ -44,6 +45,19 @@ input {
     width: 400px;
     border: 2px solid #999;
     outline: 0;
+    border-radius: 10px
+}
+button{
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: bold;
+   border: none;
+   height: 40px;
+   border-radius: 20px;
+   margin-top: 30px;
+   cursor: pointer;
+   color: #fff;
+   background-color: #08558b;
 }
 
 
