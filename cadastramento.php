@@ -19,9 +19,6 @@ $conn = mysqli_connect($hostname, $usuario, $senha, $bancodedados );
 if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
 }
-echo"-------------------------------------------------"."<br>";
-echo "Conectado com sucesso". "<br>";
-echo"-------------------------------------------------"."<br>";
 
 
 $sql = "INSERT INTO Cadastramento (nome, email, matricula, peso, altura, sexo) VALUES ('$nome', '$email', '$matricula', '$peso', '$altura', '$sexo')";
