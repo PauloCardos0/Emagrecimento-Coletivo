@@ -8,7 +8,7 @@ $peso = $_POST['peso'];
 $sexo = $_POST['sexo'];
 
 
-//Conectanco ao Banco de dados
+//Conectando ao BD
 $hostname = "localhost";
 $bancodedados = "emagrecimento_coletivo";
 $usuario = "root";
