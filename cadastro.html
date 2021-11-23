@@ -3,57 +3,53 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-   
-    <link rel="shortcut icon" href="imagens/image-removebg-preview.png" type="image/x-icon">
-
-    <title>Emagrecimento Coletivo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="shortcut icon" href="imagens/image-removebg-preview.png" type="image/x-icons">
+    <title>Cadastrar em Emagrecimento Coletivo</title>
 </head>
 
-<body id="container">
+<body>
 
-    
+        <form class="text-success text-uppercase text-center bg-dark shadow-lg rounded p-5" action="cadastramento2.php" method="post">
 
-    <div>
+            <h1 class="text-center text-uppercase">Cadastro</h1>
+            <br>
 
-        <div class="form">
+            <label for="name" class="form-label"><b>Nome</b></label>
+            <input type="text" class="form-control" placeholder="Insira o nome" name="name" required>
 
-            <form action="cadastramento.php" method="post">
+            <label for="enrollment" class="form-label"><b>Matrícula</b></label>
+            <input type="text" class="form-control" placeholder="Insira a matrícula" name="enrollment" required>
 
-                <h2>Cadastro </h2>
-                <label class="label">Nome:</label>
-                <br>
-                <input type="text" name="nome" placeholder="Digite seu nome...">
-                <br>
-                <label class="label">E-mail*</label>
-                <br>
-                <input type="email" name="email" placeholder="Digite seu E-mail...">
-                <br>
+            <label for="email" class="form-label"><b>Endereço de email</b></label>
+            <input type="email" class="form-control" placeholder="Insira o email" name="email" required>
 
-                <label class="text">Matricula*</label>
-                <br>
-                <input type="text" name="matricula" placeholder="Digite sua matricula...">
-                <br>
-                <label class="label">Peso:</label>
-                <br>
-                <input type="number" name="peso" placeholder="Digite seu peso...">
-                <br>
-                <label class="label">Altura:</label>
-                <br>
-                <input type="text" name="altura" placeholder="Digite sua Altura...">
-                <br>
-                <label class="label">Sexo</label>
+            <label for="weight" class="form-label"><b>Peso</b></label>
+            <input type="number" class="form-control" placeholder="Insira o peso" name="weight" required>
 
-                <select name="sexo">
-                    <option>Masculino</option>
-                    <option>Feminino</option>
-                </select>
-                <br>
-                <button>Enviar</button>
+            <label for="height" class="form-label"><b>Altura</b></label>
+            <input type="number" class="form-control" placeholder="Insira a altura" name="height" required>
 
-        </div>
+            <label for="sex" class="form-label"><b>Sexo</b></label>
+            <select name="sex" id="sex" class="form-control">
+                <option value="male">Masculino</option>
+                <option value="female">Feminino</option>
+            </select>
+
+            <label for="psw" class="form-label"><b>Senha</b></label>
+            <input type="password" class="form-control" placeholder="Insira a senha" name="password" required>
+
+            <label for="psw-repeat" class="form-label"><b>Repita a senha</b></label>
+            <input type="password" class="form-control" placeholder="Repita a senha" name="psw-repeat" required>
+
+            <br>
+            <button type="submit" class="btn btn-success btn-lg">CADASTRAR</button>
+
+        </form>
+
     </div>
 </body>
 

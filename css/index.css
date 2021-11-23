@@ -1,0 +1,34 @@
+#navbar-logo {
+    width: 5%;
+}
+
+.navbar-brand {
+    color: #00B74A;
+}
+
+.nav-item a {
+    color: #00B74A;
+    padding: 1rem;
+}
+
+body {
+    background-image: url(../imagens/group-g50d5a0d8e_1920-edit.jpg);
+}
+
+form {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#conteudo {
+    color: #00B74A;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+a {
+    color: #00B74A;
+}
