@@ -23,9 +23,6 @@ if (!$conn) {
 
 $sql = "INSERT INTO Cadastramento (nome, email, matricula, peso, altura, sexo) VALUES ('$nome', '$email', '$matricula', '$peso', '$altura', '$sexo')";
 if (mysqli_query($conn, $sql)) {
-      echo"-------------------------------------------------"."<br>";
-      echo "<strong>Os dados foram cadastrados</strong>"."<br>";
-      echo"-------------------------------------------------";
 
 } else {
       echo "Error: " . $sql . "<br>" . mysqli_error($conn);
