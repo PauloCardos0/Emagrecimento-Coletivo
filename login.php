@@ -15,6 +15,7 @@ if (isset($_POST['submeter'])) {
         $count = $row['cntUser'];
 
         if ($count > 0) {
+            session_start();
             $_SESSION['matricula'] = $matricula;
             header("location: home.html");
         } else {
