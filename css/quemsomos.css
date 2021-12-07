@@ -1,0 +1,39 @@
+@charset "UTF-8";
+.discricao{
+
+    text-align: center;
+    color:rgb(0, 0, 0);
+    background-color: rgba(181, 255, 181, 0.589);
+    
+
+}
+
+.imgqs{
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 186px;
+}
+
+#navbar-logo {
+    width: 5%;
+}
+
+.navbar-brand {
+    color: #00B74A;
+}
+
+.nav-item a {
+    color: #00B74A;
+    padding: 1rem;
+}
+
+body {
+    background-image: url(../imagens/group-g50d5a0d8e_1920-edit.jpg);
+}
+a{
+    color: #00B74A;
+}
+
+

@@ -6,6 +6,7 @@ $matricula= $_POST['matricula'];
 $altura = $_POST['altura'];
 $peso = $_POST['peso'];
 $sexo = $_POST['sexo'];
+$senha = $_POST['senha'];
 
 
 //Conectando ao BD
@@ -21,7 +22,7 @@ if (!$conn) {
 }
 
 
-$sql = "INSERT INTO Cadastramento (nome, email, matricula, peso, altura, sexo) VALUES ('$nome', '$email', '$matricula', '$peso', '$altura', '$sexo')";
+$sql = "INSERT INTO Cadastramento (nome, email, matricula, peso, altura, sexo, senha) VALUES ('$nome', '$email', '$matricula', '$peso', '$altura', '$sexo' '$senha')";
 if (mysqli_query($conn, $sql)) {
 
 } else {
