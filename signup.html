@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="shortcut icon" href="imagens/image-removebg-preview.png" type="image/x-icons">
+    <title>Cadastrar em Emagrecimento Coletivo</title>
+</head>
+
+<body>
+
+        <form class="text-success text-uppercase text-center bg-dark shadow-lg rounded p-5" action="cadastro.php" method="post">
+
+            <h1 class="text-center text-uppercase">Cadastro</h1>
+            <br>
+
+            <label for="nome" class="form-label"><b>Nome</b></label>
+            <input type="text" class="form-control" placeholder="Insira o nome" name="nome" required>
+
+            <label for="matricula" class="form-label"><b>Matrícula</b></label>
+            <input type="text" class="form-control" placeholder="Insira a matrícula" name="matricula" required>
+
+            <label for="email" class="form-label"><b>Endereço de email</b></label>
+            <input type="email" class="form-control" placeholder="Insira o email" name="email" required>
+
+            <label for="peso" class="form-label"><b>Peso</b></label>
+            <input type="number" class="form-control" placeholder="Insira o peso" name="peso" required>
+
+            <label for="altura" class="form-label"><b>Altura</b></label>
+            <input type="number" class="form-control" placeholder="Insira a altura" name="altura" required>
+
+            <label for="sexo" class="form-label"><b>Sexo</b></label>
+            <select name="sexo" class="form-control">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+            </select>
+
+            <label for="data_nascimento" class="form-label"><b>Data de nascimento</b></label>
+            <input name="data_nascimento" type="date" class="form-control">
+
+            <label for="senha" class="form-label"><b>Senha</b></label>
+            <input type="password" class="form-control" placeholder="Insira a senha" name="senha" required>
+
+            <label for="repeticaosenha" class="form-label"><b>Repita a senha</b></label>
+            <input type="password" class="form-control" placeholder="Repita a senha" name="repeticaosenha" required>
+
+            <br>
+            <button type="submit" class="btn btn-success btn-lg">CADASTRAR</button>
+            
+        </form>
+
+    </div>
+</body>
+
+</html>

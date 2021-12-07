@@ -1,0 +1,16 @@
+body {
+    background-image: url(../imagens/anupam-mahapatra-Vz0RbclzG_w-unsplash-green.jpg)
+}
+
+form {
+    width: 50%;
+    height: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+h2 {
+    color: red;
+}
